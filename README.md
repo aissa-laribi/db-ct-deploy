@@ -1,10 +1,10 @@
-#DB-CT-DEPLOY
--------------
-##Description
+# DB-CT-DEPLOY
+
+## Description
 
 Collection of scripts to Deploy Databases Servers or Clients as Docker Containers
 
 
-###Prerequisites
+### Prerequisites
 
 Docker installed in the machine
