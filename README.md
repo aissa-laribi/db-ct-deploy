@@ -12,13 +12,5 @@ In this collection, the servers are built on top of the lightest OS Docker image
 
 It can result in containers that are **lighter, faster to deploy, using less CPU and memory**. 
 
-Furthermore, it reduce the costs of running the databases in serverless microservice architectures.For instance, services such as AWS Fargate, GCP Cloud Run or Azure Container Instances bill for Memory/hour and vCPU/hour.
-
-## Figures with docker stats screenshots
-
-# MYSQL
-
-# POSTGRESQL
-
-# MONGODB
+Furthermore, it can reduce the costs of running the databases in serverless microservice architectures.For instance, services such as AWS Fargate, GCP Cloud Run or Azure Container Instances bill for Memory/hour and vCPU/hour.
 
