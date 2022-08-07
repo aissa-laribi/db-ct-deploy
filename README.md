@@ -10,5 +10,15 @@ Official database images are too big and they contain dependencies not needed to
 
 In this collection, the servers are built on top of the lightest OS Docker image: ALPINE LINUX: 5.53MB.
 
-It results in containers that are lighter, faster to deploy, using less CPU and memory. Furthermore, it reduce the costs of running the databases serverless microservice architectures.For instance, services such as AWS Fargate, GCP Cloud Run or Azure Container Instances bill for Memory/hour and vCPU/hour.    
+It can result in containers that are **lighter, faster to deploy, using less CPU and memory**. 
+
+Furthermore, it reduce the costs of running the databases in serverless microservice architectures.For instance, services such as AWS Fargate, GCP Cloud Run or Azure Container Instances bill for Memory/hour and vCPU/hour.
+
+## Figures with docker stats screenshots
+
+# MYSQL
+
+# POSTGRESQL
+
+# MONGODB
 

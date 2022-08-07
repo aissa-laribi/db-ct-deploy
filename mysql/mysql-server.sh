@@ -1,8 +1,8 @@
 #!bin/bash
 sudo docker volume create mysql-volume
-sudo docker run -dit --name mysql alpine
+sudo docker run -dit --name mysql-alpine alpine
 
-sudo docker exec -it mysql /bin/sh -c "apk update && apk --no-cache add mysql mysql-client \
+sudo docker exec -it mysql /bin/sh -c "apk --no-cache add mysql mysql-client \
  && mkdir /var/run/mysqld \
  && chown mysql:mysql /var/run/mysqld/ \
  && mkdir /run/openrc \
